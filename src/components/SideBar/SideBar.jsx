@@ -7,7 +7,7 @@ import myPhoto from '../../images/photo.jpg';
 export const SideBar = ({ contacts, techskills, softskills }) => {
   return (
     <aside>
-      <img src={myPhoto} alt="Kuz Kostia" />
+      <img src={myPhoto} alt="Kuz Kostia" width={250} />
       <div className={css.section}>
         <h3 className={css.title}>Contacts</h3>
         <ul>
