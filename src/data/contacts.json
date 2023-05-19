@@ -1,32 +1,22 @@
 [
     {
     "id": "id-1",
-    "link": "tel:380506991179",
-    "text": "+38 050 699 11 79"
+    "link": "tel:380987252286",
+    "text": "+38 098 725 22 86"
   },
   {
     "id": "id-2",
-    "link": "mailto:yermak1037@gmail.com",
-    "text": "yermak1037@gmail.com"
+    "link": "mailto:k.kuz2002@gmail.com",
+    "text": "k.kuz2002@gmail.com"
   },
   {
     "id": "id-3",
-    "link": "https://yer-portfolio.netlify.app/",
-    "text": "Portfolio"
-  },
-  {
-    "id": "id-4",
-    "link": "https://github.com/yermakovaa/",
+    "link": "https://github.com/kuzkostia/",
     "text": "GitHub"
   },
   {
-    "id": "id-5",
-    "link": "https://www.linkedin.com/in/yermakovaa/",
-    "text": "LinkedIn"
-  },
-  {
-    "id": "id-6",
-    "link": "https://t.me/ayermakova",
+    "id": "id-4",
+    "link": "https://t.me/kostantiin",
     "text": "Telegram"
   }
 ]

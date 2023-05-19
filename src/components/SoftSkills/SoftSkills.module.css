@@ -1,0 +1,17 @@
+.softskill {
+    color: #FB6D3A;
+    margin-left: 17px;
+}
+
+
+.label {
+    font-size: 13px;
+    line-height: 1.83;
+    letter-spacing: .04em;
+
+    cursor: pointer;
+    color: rgb(199, 199, 199);
+    border-radius: 25px;
+}
+
+.softskills_list {}

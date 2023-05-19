@@ -1,0 +1,44 @@
+.main {
+    width: 830px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.position {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 15px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 25px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.summary {
+    margin-bottom: 40px;
+}
+
+.about_me {
+    background-color: #16253c;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.mainpart {
+    padding: 15px;
+}
+
+.summary_title {}
+
+.projects_list {
+    margin-left: 15px;
+}

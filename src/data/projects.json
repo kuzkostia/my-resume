@@ -2,6 +2,25 @@
     {
         "id": "id-1",
         "text": "Web Studio",
-        "link": "https://kuzkostia.github.io/goit-markup-hw-08/"
+        "github": "https://github.com/kuzkostia/goit-markup-hw-08",
+        "link": "https://kuzkostia.github.io/goit-markup-hw-08/",
+        "tech": "HTML5, SASS, JS, Parsel",
+        "description": "Website about our team and our portfolio."
+    },
+    {
+        "id": "id-2",
+        "text": "Image Finder",
+        "github": "https://github.com/kuzkostia/goit-markup-hw-08",
+        "link": "https://kuzkostia.github.io/goit-js-hw-11/",
+        "tech": "React.js",
+        "description": "Application for searching pictures by name"
+    },
+    {
+        "id": "id-3",
+        "text": "Book",
+        "github": "https://github.com/Anna010622/js-team-project",
+        "link": "https://anna010622.github.io/js-team-project/",
+        "tech": "HTML5, SASS, JS, Parsel",
+        "description": "Application for choosing a book. Role: developer"
     }
 ]

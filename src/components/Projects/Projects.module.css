@@ -1,0 +1,18 @@
+.project {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+}
+
+.project_link,
+.project_github {
+    color: #595959;
+}
+
+.project_link:hover,
+.project_link:focus,
+.project_github:hover,
+.project_github:focus {
+    color: chocolate;
+}

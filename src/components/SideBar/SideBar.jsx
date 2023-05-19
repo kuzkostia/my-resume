@@ -6,11 +6,15 @@ import myPhoto from '../../images/photo.jpg';
 
 export const SideBar = ({ contacts, techskills, softskills }) => {
   return (
-    <aside>
-      <img src={myPhoto} alt="Kuz Kostia" width={250} />
+    <aside className={css.sidebar}>
+      <img
+        src={myPhoto}
+        alt="Kuz Kostia"
+        className={css.myphoto}
+      />
       <div className={css.section}>
         <h3 className={css.title}>Contacts</h3>
-        <ul>
+        <ul className={css.contacts_list}>
           {contacts.map(({ id, link, text }) => (
             <Contacts key={id} link={link} text={text} />
           ))}
@@ -19,7 +23,7 @@ export const SideBar = ({ contacts, techskills, softskills }) => {
 
       <div className={css.section}>
         <h3 className={css.title}>SoftSkills</h3>
-        <ul>
+        <ul className={css.softskills_list}>
           {softskills.map(({ id, label }) => (
             <SoftSkills key={id} label={label} />
           ))}
