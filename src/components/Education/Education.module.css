@@ -1,0 +1,9 @@
+.item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.university {
+    color: #595959;
+    font-size: 16px;
+    font-weight: 700;
+}
