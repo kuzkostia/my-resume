@@ -13,10 +13,10 @@ export const MainPart = ({ projects, experience, education }) => {
       <div className={css.mainpart}>
         <h2 className={css.title}>Summary</h2>
         <p className={css.summary}>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates
-          quas odit, repudiandae veritatis pariatur ipsa similique porro
-          necessitatibus omnis tenetur nobis quam facere nam optio consequatur
-          laborum aut aliquid molestiae?
+          Excellent communication and problem-solving skills, with a strong
+          commitment to providing exceptional IT support. Seeking a challenging
+          position in a dynamic IT environment where I can utilize my skills and
+          contribute to the success of the organization.
         </p>
 
         <h2 className={css.title}>Projects</h2>
