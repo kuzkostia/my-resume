@@ -1,9 +1,8 @@
 import { Education } from 'components/Education/Education';
-import { Experience } from 'components/Experience/Experience';
 import { Projects } from 'components/Projects/Projects';
 import css from './MainPart.module.css';
 
-export const MainPart = ({ projects, experience, education }) => {
+export const MainPart = ({ projects, education }) => {
   return (
     <div className={css.main}>
       <div className={css.about_me}>
@@ -32,20 +31,6 @@ export const MainPart = ({ projects, experience, education }) => {
             />
           ))}
         </ol>
-
-        <div className={css.experience}>
-          <ul className={css.experience_list}>
-            {experience.map(({ id, profession, company, time, country }) => (
-              <Experience
-                key={id}
-                profession={profession}
-                company={company}
-                time={time}
-                country={country}
-              />
-            ))}
-          </ul>
-        </div>
 
         <div className={css.education}>
           <h3 className={css.title}>Education</h3>
