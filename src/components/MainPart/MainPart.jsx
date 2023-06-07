@@ -19,7 +19,7 @@ export const MainPart = ({ projects, experience, education }) => {
           contribute to the success of the organization.
         </p>
 
-        <h2 className={css.title}>Projects</h2>
+        <h2 className={css.title}>Project Experience</h2>
         <ol className={css.projects_list}>
           {projects.map(({ id, link, text, tech, github, description }) => (
             <Projects
@@ -34,7 +34,6 @@ export const MainPart = ({ projects, experience, education }) => {
         </ol>
 
         <div className={css.experience}>
-          <h3 className={css.title}>Work Experience</h3>
           <ul className={css.experience_list}>
             {experience.map(({ id, profession, company, time, country }) => (
               <Experience

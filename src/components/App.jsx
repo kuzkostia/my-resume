@@ -8,6 +8,7 @@ import softskills from '../data/softSkills.json';
 import projects from '../data/projects.json';
 import experience from '../data/experience.json';
 import education from '../data/education.json';
+import languages from '../data/languages.json';
 
 export const App = () => {
   return (
@@ -16,6 +17,7 @@ export const App = () => {
         contacts={contacts}
         techskills={techskills}
         softskills={softskills}
+        languages={languages}
       />
       <MainPart
         projects={projects}

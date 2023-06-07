@@ -6,9 +6,11 @@ export const Projects = ({ text, link, tech, github, description }) => {
       <a className={css.project_link} href={link}>
         {text}
       </a>
+      <br />
       <a className={css.project_github} href={github}>
-        , github
+        Github link
       </a>
+      <p>Technologies: [{tech}]</p>
       <p>Description: {description}</p>
     </li>
   );

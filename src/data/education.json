@@ -2,13 +2,13 @@
   {
     "id": "id-1",
     "university": "GoIT",
-    "label": "Certificate Course in Full stack developer",
-    "time": "September 2022 - now"
+    "label": "Full stack developer",
+    "time": "September 2022 - June 2023"
   },
   {
     "id": "id-2",
     "university": "Chernivtsi National University",
-    "label": "Bachelor's degree",
-    "time": "Septermber 2019 - now"
+    "label": "Bachelor's degree of applied mathematics and information technologies",
+    "time": "2019 - 2023"
   }
 ]

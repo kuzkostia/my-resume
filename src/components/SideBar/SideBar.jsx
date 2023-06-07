@@ -3,20 +3,26 @@ import { SoftSkills } from 'components/SoftSkills/SoftSkills';
 import { TechSkills } from 'components/TechSkills/TechSkills';
 import css from './SideBar.module.css';
 import myPhoto from '../../images/photo.jpg';
+import { Languages } from 'components/Languages/Languages';
 
-export const SideBar = ({ contacts, techskills, softskills }) => {
+export const SideBar = ({ contacts, techskills, softskills, languages }) => {
   return (
     <aside className={css.sidebar}>
-      <img
-        src={myPhoto}
-        alt="Kuz Kostia"
-        className={css.myphoto}
-      />
+      <img src={myPhoto} alt="Kuz Kostia" className={css.myphoto} />
       <div className={css.section}>
         <h3 className={css.title}>Contacts</h3>
         <ul className={css.contacts_list}>
           {contacts.map(({ id, link, text }) => (
             <Contacts key={id} link={link} text={text} />
+          ))}
+        </ul>
+      </div>
+
+      <div className={css.section}>
+        <h3 className={css.title}>TechSkills</h3>
+        <ul>
+          {techskills.map(({ id, label }) => (
+            <TechSkills key={id} label={label} />
           ))}
         </ul>
       </div>
@@ -31,10 +37,10 @@ export const SideBar = ({ contacts, techskills, softskills }) => {
       </div>
 
       <div className={css.section}>
-        <h3 className={css.title}>TechSkills</h3>
-        <ul>
-          {techskills.map(({ id, label }) => (
-            <TechSkills key={id} label={label} />
+        <h3 className={css.title}>Languages</h3>
+        <ul className={css.languages_list}>
+          {languages.map(({ id, language }) => (
+            <Languages key={id} language={language} />
           ))}
         </ul>
       </div>
