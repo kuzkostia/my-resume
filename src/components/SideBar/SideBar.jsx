@@ -2,7 +2,7 @@ import { Contacts } from 'components/Contacts/Contacts';
 import { SoftSkills } from 'components/SoftSkills/SoftSkills';
 import { TechSkills } from 'components/TechSkills/TechSkills';
 import css from './SideBar.module.css';
-import myPhoto from '../../images/photo.jpg';
+import myPhoto from '../../images/myphoto.jpeg';
 import { Languages } from 'components/Languages/Languages';
 
 export const SideBar = ({ contacts, techskills, softskills, languages }) => {
@@ -19,7 +19,7 @@ export const SideBar = ({ contacts, techskills, softskills, languages }) => {
       </div>
 
       <div className={css.section}>
-        <h3 className={css.title}>TechSkills</h3>
+        <h3 className={css.title}>Tech Skills</h3>
         <ul>
           {techskills.map(({ id, label }) => (
             <TechSkills key={id} label={label} />
@@ -28,7 +28,7 @@ export const SideBar = ({ contacts, techskills, softskills, languages }) => {
       </div>
 
       <div className={css.section}>
-        <h3 className={css.title}>SoftSkills</h3>
+        <h3 className={css.title}>Soft Skills</h3>
         <ul className={css.softskills_list}>
           {softskills.map(({ id, label }) => (
             <SoftSkills key={id} label={label} />

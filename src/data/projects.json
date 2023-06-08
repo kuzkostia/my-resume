@@ -5,7 +5,7 @@
         "github": "https://github.com/kuzkostia/goit-markup-hw-08",
         "link": "https://kuzkostia.github.io/goit-markup-hw-08/",
         "tech": "HTML5, SASS, JS, Parsel",
-        "description": "Website about our team and our portfolio."
+        "description": "Website about our team and our portfolio. Role: developer"
     },
     {
         "id": "id-2",
@@ -13,7 +13,7 @@
         "github": "https://github.com/kuzkostia/goit-markup-hw-08",
         "link": "https://kuzkostia.github.io/goit-js-hw-11/",
         "tech": "React.js",
-        "description": "Application for searching pictures by name"
+        "description": "Application for searching pictures by name. Role: developer"
     },
     {
         "id": "id-3",
