@@ -5,6 +5,10 @@
     line-height: 24px;
 }
 
+.project:not(:last-child) {
+    margin-bottom: 10px;
+}
+
 .project_link,
 .project_github {
     color: #595959;

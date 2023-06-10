@@ -12,9 +12,12 @@ export const MainPart = ({ projects, education }) => {
       <div className={css.mainpart}>
         <h2 className={css.title}>Summary</h2>
         <p className={css.summary}>
-          I'm a Front-end Developer and looking for an interesting job. I want
-          to be in a good team to improve my skills and use them for interesting
-          tasks. I am a fast learner, responsible, ready for hard tasks.
+          I'm a Front-end Developer with knowledge HTML5, SASS, JS, React and
+          other technologies. I'm looking for an interesting job and want to be
+          in a good team to improve my skills and use them for interesting
+          tasks. I am a fast learner, responsible, ready for hard tasks.I am
+          open to feedback, share knowledge and ideas and resolve conflicts
+          constructively.
         </p>
 
         <h2 className={css.title}>Project Experience</h2>

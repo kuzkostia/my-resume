@@ -16,6 +16,7 @@ export const SideBar = ({ contacts, techskills, softskills, languages }) => {
             <Contacts key={id} link={link} text={text} />
           ))}
         </ul>
+        <span className={css.city}>Chernivtsi, Ukraine</span>
       </div>
 
       <div className={css.section}>
